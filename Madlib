@@ -1,0 +1,103 @@
+import java.util.Scanner;
+
+public class Madlibs
+{
+    public static void main(String[] args)
+    {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter your name: ");
+        String name = input.nextLine();
+    
+        System.out.print("Enter the day of the month: ");
+        int day = input.nextInt();
+        input.nextLine();
+        System.out.print("Enter the month as an integer: ");
+        int month = input.nextInt();
+        input.nextLine();
+        System.out.print("Enter the year: ");
+        int year = input.nextInt();
+        System.out.println();
+        System.out.println();
+
+        input.nextLine();
+        
+        System.out.print("Enter the name of a person in the room: ");
+        String person = input.nextLine();
+        
+        System.out.print("Enter a noun: ");
+        String noun = input.nextLine();
+        
+        System.out.print("Enter an adjective: ");
+        String adj = input.nextLine();
+        
+        System.out.print("Enter a verb in the past tense: ");
+        String verb = input.nextLine();
+        
+        System.out.print("Enter a plural noun: ");
+        String noun2 = input.nextLine();
+        
+        System.out.print("Enter a plural noun: ");
+        String noun3 = input.nextLine();
+        
+        System.out.print("Enter a number: ");
+        int number = input.nextInt();
+        input.nextLine();
+        
+        System.out.print("Enter an adjective: ");
+        String adj2 = input.nextLine();
+        
+        System.out.print("Enter an adjective: ");
+        String adj3 = input.nextLine();
+        
+        System.out.print("Enter a noun: ");
+        String noun4 = input.nextLine();
+        
+        System.out.print("Enter an exclamation: ");
+        String excla = input.nextLine();
+        
+        System.out.print("Enter a noun: ");
+        String noun5 = input.nextLine();
+        
+        System.out.print("Enter the name of another person in the room: ");
+        String person2 = input.nextLine();
+        
+        System.out.print("Enter a noun: ");
+        String noun6 = input.nextLine();
+        
+        System.out.print("Enter a noun: ");
+        String noun7 = input.nextLine();
+        
+        System.out.print("Enter a number: ");
+        int number2 = input.nextInt();
+        input.nextLine();
+        
+        System.out.print("Enter a noun: ");
+        String noun8 = input.nextLine();
+
+        
+        System.out.print("Enter a noun: ");
+        String noun9 = input.nextLine();
+        
+        System.out.print("Enter a noun: ");
+        String noun10 = input.nextLine();
+        
+        System.out.println();
+        System.out.println();
+        
+        System.out.println("Date: " + month + "/" + day + "/" + year);
+        System.out.println();
+        
+        System.out.println("Hi! This is " + person + ", speaking to you from the broadcasting " + noun + " at the " + adj + " forum.");
+        System.out.println("In case you " + verb + " in late, the score between the New York " + noun2 + " and the Portland " + noun3 + " is a squeaker, 141 to " + number + ".");
+        System.out.println("This has been the most " + adj2 + " game these " + adj3 + " eyes have seen in years.");
+        System.out.println("First, one team scores a " + noun4 + ", then " + excla + "!-the other team comes right back.");
+        System.out.println("Okay. Time-out is over. Portland brings in the ball at mid-" + noun5 + ".");
+        System.out.println(person2 + " dribbles down the " + noun6 + ", fakes the defender out of his " + noun7 + " and shoots a " + number2 + "-handed shot.");
+        System.out.println("It goes through the " + noun8 + ".");
+        System.out.println("He beat the " + noun9 + "!");
+        System.out.println("The game is over just as the " + noun10 + " goes off.");
+        
+        System.out.println();
+        System.out.println("By: " + name);
+    }
+}
